@@ -1,11 +1,7 @@
 package com.example.konversimatauang
 
-import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.KeyEvent
-import android.view.View
-import android.view.inputmethod.InputMethodManager
 import com.example.konversimatauang.databinding.ActivityMainBinding
 import java.text.NumberFormat
 import java.util.*
@@ -21,11 +17,11 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(binding.root)
 
-        binding.calculateButton.setOnClickListener { calculateCurrency() }
+        binding.button.setOnClickListener { calculateCurrency() }
     }
 
     private fun calculateCurrency() {
-        val stringInTextField = binding.costOfServiceEditText.text.toString()
+        val stringInTextField = binding.amountEditText.text.toString()
         val amount = stringInTextField.toDoubleOrNull()
 
         if (amount == null || amount == 0.0) {
@@ -33,7 +29,7 @@ class MainActivity : AppCompatActivity() {
             return
         }
 
-        val currencyRate = when (binding.tipOptions.checkedRadioButtonId) {
+        val currencyRate = when (binding.options.checkedRadioButtonId) {
             R.id.euro -> 15620.81
             R.id.dollar -> 14366.00
             R.id.yen -> 114.51
@@ -47,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun displayCurrency(rupiah: Double) {
         val indonesianLocale = Locale("in", "ID")
-        val formattedTip = NumberFormat.getCurrencyInstance(indonesianLocale).format(rupiah)
-        binding.tipResult.text = getString(R.string.tip_amount, formattedTip)
+        val formattedCurrency = NumberFormat.getCurrencyInstance(indonesianLocale).format(rupiah)
+        binding.result.text = getString(R.string.tip_amount, formattedCurrency)
     }
 }
