@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Birds</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome</string>
+    <string name="action_language">Language</string>
+    <string name="id">Indonesian</string>
+    <string name="en">English</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_species">Species</string>
+
+    <!-- Text Home -->
+    <string name="name_burung1">Merpati Balap</string>
+    <string name="name_burung2">Elang Golden</string>
+    <string name="name_burung3">Kakaktua Jambul Hitam</string>
+    <string name="name_burung4">Toucan</string>
+    <string name="name_burung5">Hyacinth Macaw</string>
+    <string name="name_burung6">Flamingo</string>
+    <string name="name_burung7">Scarlet Tanager</string>
+    <string name="name_burung8">Oriole Baltimore</string>
+    <string name="name_burung9">Mountain Bluebird</string>
+    <string name="name_burung10">American Goldfinch</string>
+
+    <string name="desc_burung1">Di urutan pertama sebagai burung termahal di dunia adalah pigeon racing atau yang dikenal dengan merpati balap. Pada 2013, ada seseorang yang menjual merpati balap dengan harga tinggi yaitu sebesar USD 6 juta atau setara hampir Rp 90 miliar. Sedangkan di Indonesia, ada seorang pemilik merpati balap yang berhasil menjualnya seharga Rp 1 miliar.
+        Merpati balap dihargai dengan sangat mahal karena burung ini merupakan burung tercepat di dunia. Burung ini memiliki banyak prestasi di berbagai kejuaraan burung. Ia memegang rekor di Olimpiade Usain Bolt. Hampir di setiap kejurnas, burung yang dinamai Jayabaya tersebut meraih trofi juara.
+        Jika Anda ingin membeli burung ini di pasaran, Anda harus merogoh kocek hingga Rp 1,2 miliar.</string>
+    <string name="desc_burung2">Elang golden merupakan jenis elang yang berasal dari Republik Ceko dan termasuk dalam jenis elang terbesar di dunia. Di Indonesia, ada salah satu warga di Semarang yang memiliki burung ini.
+        Elang ini biasa digunakan oleh warga Ceko untuk berburu. Kini, elang hasil ternak yang mempunyai berat hingga 9 kilogram dipatok seharga Rp 300 juta.</string>
+    <string name="desc_burung3">Duduk di urutan ketiga ada Black Palm Cockatoo atau di Indonesia dikenal dengan nama Kakaktua Jambul Hitam. Kakaktua ini merupakan jenis burung langka yang berhabitat di hutan hujan Australia dan Papua.
+        Kakaktua jambul hitam memiliki bulu elegan berwarna abu kebiruan solid dan pipi merah yang unik. Tidak hanya itu, kakaktua jambul hitam juga salah satu jenis kakatua yang memiliki bentuk menarik dengan jambul yang mencuat. Ketika dewasa, burung ini dapat mencapai tinggi hingga 60 cm. Tidak heran, burung ini dihargai mahal, yaitu di kisaran 224 juta rupiah per ekor.</string>
+    <string name="desc_burung4">Toucan adalah jenis burung yang mahal karena kombinasi warna bulu dan sayapnya. Warna hitam, ungu, kuning, oranye, hijau dan biru menjadi campuran warna yang mempercantik burung ini. Burung ini terkenal di Meksiko Selatan, Amerika Selatan, dan Karibia.
+        Di seluruh dunia terdapat kira-kira sebanyak 40 spesies burung ini yang tersebar di berbagai negara. Toucan dihargai cukup mahal, yaitu mencapai kisaran harga Rp 70 juta.</string>
+    <string name="desc_burung5">Hyacinth Macaw merupakan jenis beo terbesar di dunia yang berhabitat di bagian tengah dan timur Amerika Selatan, serta Amerika Timur. Burung ini memiliki sayap yang sangat besar. Selain sayap, Ia juga memiliki paruh yang besar dan kuat. Burung ini merupakan wujud asli dari karakter utama fim Disney yang berjudul berjudul Rio.
+        Hyacinth macaw bisa tumbuh hingga 1 meter, dengan berat mencapai 3,5 kilogram. Burung ini tergolong langka karena sering kali diburu untuk diperjualbelikan. Satu ekor anakan burung hyacinth macaw bisa mencapai Rp. 17 juta.</string>
+    <string name="desc_burung6">Burung berwarna salem dengan semburat merah muda ini masih keturunan burung migran asal Kepulauan Karibia, Amerika Selatan, Afrika Utara, dan sebagian wilayah Asia. Burung flamingo ini biasa dijadikan simbol keromantisan.
+        Flamingo memiliki ciri khas bulu yang berwarna merah muda dan kaki kecil yang panjang. Berkat tubuhnya itu, dia bisa terbang sejauh 35 mil dalam waktu satu jam saja.
+        Flamingo merupakan jenis burung yang hidup secara berkelompok dan membutuhkan tempat hidup yang luas. Jenis burung rendam ini mencapai Rp 14 juta lebih.</string>
+    <string name="desc_burung7">Burung scarlet tanager ini berasal dari Amerika Utara bagian timur. Burung ini dapat dengan mudah ditemukan di areal hutan yang luas dengan pepohonan oak.
+        Scarlet tanager tergolong dalam binatang yang lumayan cerdas. Selain itu, yang membuatnya memiliki harga lumayan mahal adalah karena warna corak tubuhnya khas merah dan memiliki sayap berwarna hitam. Padahal, warna kulitnya cenderung ke arah kuning.
+        Burung ini memiliki lengkingan suara yang indah. Kecantikan dan keindahan burung inilah yang menjadikan scarlet tanager dibanderol harga sebesar 12,5 juta rupiah.</string>
+    <string name="desc_burung8">Burung oriole baltimore dikenal dengan kemampuannya bernyanyi yang indah. Burung ini juga kerap diikutkan pada lomba burung berkicau.
+        Burung ini suka bermigrasi dari habibat aslinya di belahan bumi utara ke tempat yang jauh dari tempat tinggal asli, lalu beranjak ke utara lagi untuk melakukan reproduksi. Burung ini dihargai sebesar Rp 12 juta.</string>
+    <string name="desc_burung9">Mountain bluebird dapat tumbuh hingga mencapai tinggi 16-20 cm dan beratnya hampir 30 gram. Burung ini memiliki warna biru dan abu-abu kusam dan memakan beri, kacang dan serangga.
+        Dalam mencari mangsa, mereka akan melayang di atas mangsa, lalu mencekik untuk menangkapnya. Hampir sama dengan Oriole Baltimore, burung ini dipatok dengan harga Rp 12 jutaan.</string>
+    <string name="desc_burung10">Selain populer dengan nama American Goldfinch, burung ini juga terkenal dengan sebutan Eastern Goldfinch. Corak hitam pada bulu yang dominan kuning terang atau hijau zaitun membuat burung ini terlihat cantik dan indah.
+        Mereka tergolong burung migran yang kerap dijumpai di wilayah Amerika Utara. Di pasaran, American goldfinch bisa mencapai harga 10,7 juta per ekor.</string>
+
+    <!-- Video -->
+    <string name="video1">YTJg8q9Q940</string>
+    <string name="video2">twJaTtWxKCc</string>
+    <string name="video3">RWJGj4Xp_do</string>
+</resources>
