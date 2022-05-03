@@ -23,7 +23,7 @@ class VideoDetailActivity : AppCompatActivity() {
 //        val image = binding.imageVideoDetail
 //        image.setImageResource(intent.getIntExtra(EXTRA_IMAGE, 0))
 
-        val name = binding.videoId
+        val name = binding.youtubePlayer
         setOf(videoId) = intent.getStringExtra(EXTRA_NAME)
     }
 
