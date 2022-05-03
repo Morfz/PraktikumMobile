@@ -38,6 +38,7 @@ class VideoAdapter(
             viewModel.setData(item, context)
             val intent = Intent(context, VideoDetailActivity::class.java).apply {
                 putExtra("image", viewModel.image.value)
+                putExtra("link", viewModel.link.value)
             }
             context.startActivity(intent)
         }
