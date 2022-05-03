@@ -11,9 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Birds">
-<!--        <activity-->
-<!--            android:name=".ui.news.NewsDetailActivity"-->
-<!--            android:exported="false" />-->
+        <activity
+            android:name=".ui.video.VideoDetailActivity"
+            android:exported="false" />
         <activity
             android:name=".ui.species.SpeciesDetailActivity"
             android:exported="false" />

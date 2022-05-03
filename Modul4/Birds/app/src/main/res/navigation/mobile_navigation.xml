@@ -22,4 +22,10 @@
         android:name="com.example.birds.ui.species.SpeciesFragment"
         android:label="@string/menu_species"
         tools:layout="@layout/fragment_species" />
+
+    <fragment
+        android:id="@+id/nav_video"
+        android:name="com.example.birds.ui.video.VideoFragment"
+        android:label="@string/menu_video"
+        tools:layout="@layout/fragment_video" />
 </navigation>

@@ -24,7 +24,7 @@ class VideoViewModel : ViewModel() {
 
     fun setData(data: VideoData, context: Context){
         _image.value = data.imageResourceId
-        _link.value = context.getString(data.descResourceId)
+        _link.value = context.getString(data.linkResourceId)
     }
 
 }

@@ -20,10 +20,12 @@ class VideoDetailActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        val image = binding.imageVideoDetail
-        image.setImageResource(intent.getIntExtra(EXTRA_IMAGE, 0))
+//        val image = binding.imageVideoDetail
+//        image.setImageResource(intent.getIntExtra(EXTRA_IMAGE, 0))
 
-        val name = binding.titleDetailNews
-        name.text = intent.getStringExtra(EXTRA_NAME)
+        val name = binding.videoId
+        setOf(videoId) = intent.getStringExtra(EXTRA_NAME)
     }
+
+
 }
