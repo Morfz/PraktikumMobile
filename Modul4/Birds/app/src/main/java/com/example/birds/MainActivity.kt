@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
                 val config = Configuration()
                 config.locale = locale
                 baseContext.resources.updateConfiguration(config, baseContext.resources.displayMetrics)
-                Toast.makeText(this, "Language changed to Inggris", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Language changed to English", Toast.LENGTH_SHORT).show()
                 recreate()
                 return true
             }
@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity() {
                 val config = Configuration()
                 config.locale = locale
                 baseContext.resources.updateConfiguration(config, baseContext.resources.displayMetrics)
-                Toast.makeText(this, "Language changed to indonesia", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Bahasa diubah menjadi bahasa Indonesia", Toast.LENGTH_SHORT).show()
                 recreate()
                 return true
             }

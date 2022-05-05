@@ -14,12 +14,12 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_species">Species</string>
-    <string name="menu_video">Video</string>
+    <string name="menu_video">Videos</string>
 
     <!-- Text Home -->
-    <string name="name_burung1">Merpati Balap</string>
-    <string name="name_burung2">Elang Golden</string>
-    <string name="name_burung3">Kakaktua Jambul Hitam</string>
+    <string name="name_burung1">Pigeon Racing</string>
+    <string name="name_burung2">Golden Eagle</string>
+    <string name="name_burung3">Black Palm Cockatoo</string>
     <string name="name_burung4">Toucan</string>
     <string name="name_burung5">Hyacinth Macaw</string>
     <string name="name_burung6">Flamingo</string>
@@ -53,8 +53,7 @@
         Mereka tergolong burung migran yang kerap dijumpai di wilayah Amerika Utara. Di pasaran, American goldfinch bisa mencapai harga 10,7 juta per ekor.</string>
 
     <!-- Video -->
-    <string name="video1">YTJg8q9Q940</string>
-    <string name="video2">twJaTtWxKCc</string>
-    <string name="video3">RWJGj4Xp_do</string>
-    <string name="rick_roll">dQw4w9WgXcQ</string>
+    <string name="video1">UYbJNpC4Jt8</string>
+    <string name="video2">tbodhmmqa-g</string>
+    <string name="video3">rV_ERKtNyNA</string>
 </resources>

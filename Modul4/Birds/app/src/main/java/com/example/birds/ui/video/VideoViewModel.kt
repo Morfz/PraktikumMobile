@@ -16,9 +16,9 @@ class VideoViewModel : ViewModel() {
 
     fun loadData(): List<VideoData>{
         return listOf(
-            VideoData(R.drawable.burung1, R.string.video1),
-            VideoData(R.drawable.burung2, R.string.video2),
-            VideoData(R.drawable.burung3, R.string.video3)
+            VideoData(R.drawable.thumbnail1, R.string.video1),
+            VideoData(R.drawable.thumbnail2, R.string.video2),
+            VideoData(R.drawable.thumbnail3, R.string.video3)
         )
     }
 
