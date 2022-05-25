@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/doaListFragment">
+
+    <fragment
+        android:id="@+id/doaListFragment"
+        android:name="com.example.doa.ui.DoaListFragment"
+        android:label="Daftar Doa" >
+        <action
+            android:id="@+id/action_doaListFragment_to_doaDetailFragment"
+            app:destination="@id/doaDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/doaDetailFragment"
+        android:name="com.example.doa.ui.DoaDetailFragment"
+        android:label="Detail Doa"
+        tools:layout="@layout/fragment_doa_detail" />
+</navigation>
