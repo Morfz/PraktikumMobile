@@ -20,6 +20,7 @@
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:text="@{viewModel.selectedDoa.doa}"
+            android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="parent"
@@ -39,6 +40,7 @@
             android:id="@+id/ayat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
             android:layout_marginTop="24dp"
             android:padding="8dp"
             android:text="@{viewModel.selectedDoa.ayat}"
@@ -46,26 +48,28 @@
             android:textSize="24sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/name"
-            tools:text="Bright red body, blue legs" />
+            tools:text="Arab" />
 
         <TextView
             android:id="@+id/latin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="8dp"
+            android:layout_marginStart="4dp"
             android:text="@{viewModel.selectedDoa.latin}"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="16sp"
             android:textStyle="italic"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/ayat"
-            tools:text="Bright red body, blue legs" />
+            tools:text="Arab Latin" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
+            android:layout_marginStart="4dp"
             android:text="Artinya :"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             app:layout_constraintStart_toStartOf="parent"
@@ -76,13 +80,14 @@
             android:id="@+id/artinya"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
             android:padding="8dp"
             android:text="@{viewModel.selectedDoa.artinya}"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2"
-            tools:text="Bright red body, blue legs" />
+            tools:text="Arti Ayat" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
